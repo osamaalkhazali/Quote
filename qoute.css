@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Tahoma, Arial;
+  }
+
+
+.container {
+    background-color: rgb(46, 46, 46);
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    width: 80%;
+    color: orange;
+    font-weight: 900;
+    font-size: 300%;
+    text-align: center;
+    margin: 15px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: teal;
+    color: orange;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 15px ;
+}
+
+.quote {
+    min-height: 30px;
+    width: 80%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    line-height: 2;
+    font-weight: 800;
+    color:teal;
+    
+}
+
+.quote p {
+    color: gray;
+    text-align: end;
+    margin-top: 10px;
+}
+
+q {
+    text-align: center;
+}
+
+q::before {
+    content: "❝";
+    color: orange;
+    font-size: 40px;
+    
+    
+}
+q::after {
+    content: "❞";
+    color: orange;
+    font-size: 40px;
+    
+}
